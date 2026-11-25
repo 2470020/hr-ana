@@ -1,0 +1,12 @@
+.imp { display: grid; gap: 20px; }
+.imp-block { padding: 24px; }
+.imp-block h2 { margin: 4px 0 8px; font-size: 20px; color: var(--navy-900); }
+.imp-row { display: flex; flex-wrap: wrap; gap: 12px 18px; align-items: center; margin: 12px 0; font-size: 13px; color: var(--muted); }
+.imp-row select, .imp-row input[type='number'] { margin-left: 6px; padding: 6px 8px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--ink); font: inherit; }
+.imp-row input[type='number'] { width: 80px; }
+.imp-status { font-size: 13px; color: var(--navy-600); min-height: 1.4em; }
+.imp-note { background: var(--blue-100); border-left: 4px solid var(--blue-500); padding: 10px 14px; border-radius: 8px; margin: 12px 0; font-size: 14px; }
+.imp-warn { background: var(--gold-100); border-left-color: var(--gold-500); }
+.imp-list { line-height: 1.8; font-size: 14px; }
+.imp-canvas { width: 100%; height: auto; border: 1px solid var(--line); border-radius: 10px; margin: 12px 0; }
+.export-button:disabled { opacity: .5; cursor: not-allowed; }
